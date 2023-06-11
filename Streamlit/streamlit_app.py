@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#from prediction import predict
+from prediction import predict
 import pickle
 
 import pickle
@@ -13,14 +13,14 @@ import pickle
 #with open('modelo_xgbr2.pkl', 'rb') as file:
 #    modelo_carregado = pickle.load(file)
 
-def load_model():
-    with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'rb') as file:
-        data = pickle.load(file)
-    return data
+#def load_model():
+#    with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'rb') as file:
+#        data = pickle.load(file)
+#    return data
 
-data = load_model()
+#data = load_model()
 
-model_xgbr = data["model"]
+#model_xgbr = data["model"]
 
 # Carregar o Dataset
 df = pd.read_csv('/home/cassio/Documentos/MachineLearning_LR/Streamlit/X_train.csv')
@@ -73,7 +73,7 @@ X = pd.DataFrame({
 # Botão de previsão
 if st.button('Fazer Previsão'):
     # Calcular e exibir a previsão
-    resultado = model_xgbr.predict(X)
+    resultado = predict(X)
     st.header('Resultado da Previsão')
     previsao_formatada = np.round(resultado.item(), 2)
     st.write(f'A previsão é: ₹ {previsao_formatada}')

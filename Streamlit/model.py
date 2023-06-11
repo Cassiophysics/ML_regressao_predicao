@@ -92,13 +92,16 @@ result_final = pd.DataFrame(model_result2, index=['0'])
 result_final
 
 # Salvar o Modelo Final
-import pickle
+#import pickle
 #with open('modelo_xgbr2.pkl', 'wb') as file:
 #    pickle.dump(xgbr2, file)
 
-data = {"model": xgbr2}
-with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'wb') as file:
-    pickle.dump(data, file)
+#data = {"model": xgbr2}
+#with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'wb') as file:
+#    pickle.dump(data, file)
+
+
+joblib.dump(xgbr2, "xgbr2_model.sav")
 
 
 
