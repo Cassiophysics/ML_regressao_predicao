@@ -23,7 +23,7 @@ from prediction import predict
 #model_xgbr = data["model"]
 
 # Carregar o Dataset
-df = pd.read_csv('/home/cassio/Documentos/MachineLearning_LR/Streamlit/X_train.csv')
+df = pd.read_csv('X_train.csv')
 
 # Criar a interface do Streamlit
 st.title('✈️ Previsão do Preço de Passagens Aéreas')
