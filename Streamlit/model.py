@@ -20,7 +20,7 @@ import joblib
 
 
 # Carregamento dos dados
-df = pd.read_csv('flight_price.csv')
+df = pd.read_csv('Data_Train_Tratado.csv')
 df = df.drop(columns=df.columns[0])
 
 # Separação das variáveis preditoras da variável alvo
