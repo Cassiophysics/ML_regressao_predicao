@@ -14,7 +14,7 @@ import pickle
 #    modelo_carregado = pickle.load(file)
 
 def load_model():
-    with open('saved_steps.pkl', 'rb') as file:
+    with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
@@ -23,7 +23,7 @@ data = load_model()
 model_xgbr = data["model"]
 
 # Carregar o Dataset
-df = pd.read_csv('X_train.csv')
+df = pd.read_csv('/home/cassio/Documentos/MachineLearning_LR/Streamlit/X_train.csv')
 
 # Criar a interface do Streamlit
 st.title('✈️ Previsão do Preço de Passagens Aéreas')

@@ -20,7 +20,7 @@ import joblib
 
 
 # Carregamento dos dados
-df = pd.read_csv('Data_Train_Tratado.csv')
+df = pd.read_csv('/home/cassio/Documentos/MachineLearning_LR/Streamlit/Data_Train_Tratado.csv')
 df = df.drop(columns=df.columns[0])
 
 # Separação das variáveis preditoras da variável alvo
@@ -97,7 +97,7 @@ import pickle
 #    pickle.dump(xgbr2, file)
 
 data = {"model": xgbr2}
-with open('saved_steps.pkl', 'wb') as file:
+with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'wb') as file:
     pickle.dump(data, file)
 
 
