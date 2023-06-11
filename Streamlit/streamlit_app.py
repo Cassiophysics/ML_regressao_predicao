@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from prediction import predict
-import pickle
+
 
 
 #def predict(data):
@@ -14,7 +14,7 @@ import pickle
 #    modelo_carregado = pickle.load(file)
 
 #def load_model():
-#    with open('/home/cassio/Documentos/MachineLearning_LR/Streamlit/saved_steps.pkl', 'rb') as file:
+#    with open('/saved_steps.pkl', 'rb') as file:
 #        data = pickle.load(file)
 #    return data
 
