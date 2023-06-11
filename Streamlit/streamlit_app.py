@@ -22,8 +22,19 @@ from prediction import predict
 
 #model_xgbr = data["model"]
 
+import os
+
+# Obtém o diretório atual
+current_dir = os.getcwd()
+
+# Obtém o caminho completo do arquivo 'X_train.csv'
+file_path = os.path.join(current_dir, 'X_train.csv')
+
+# Agora você pode usar o 'file_path' para ler o arquivo
+df = pd.read_csv(file_path)
+
 # Carregar o Dataset
-df = pd.read_csv('X_train.csv')
+#df = pd.read_csv('/home/cassio/Documentos/MachineLearning_LR/Streamlit/X_train.csv')
 
 # Criar a interface do Streamlit
 st.title('✈️ Previsão do Preço de Passagens Aéreas')
