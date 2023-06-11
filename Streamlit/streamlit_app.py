@@ -5,9 +5,9 @@ from prediction import predict
 import pickle
 
 import pickle
-def predict(data):
-    xgbr2 = pickle.load(open('modelo_xgbr2.pkl', 'rb'))
-    return xgbr2.predict(data)
+#def predict(data):
+#    xgbr2 = pickle.load(open('modelo_xgbr2.pkl', 'rb'))
+#    return xgbr2.predict(data)
 
 # Carregar o modelo
 #with open('modelo_xgbr2.pkl', 'rb') as file:
