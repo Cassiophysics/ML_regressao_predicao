@@ -10,8 +10,17 @@ def predict(data):
     return xgbr2.predict(data)
 
 # Carregar o modelo
-with open('modelo_xgbr2.pkl', 'rb') as file:
-    modelo_carregado = pickle.load(file)
+#with open('modelo_xgbr2.pkl', 'rb') as file:
+#    modelo_carregado = pickle.load(file)
+
+def load_model():
+    with open('saved_steps.pkl', 'rb') as file:
+        data = pickle.load(file)
+    return data
+
+data = load_model()
+
+model_xgbr = data["model"]
 
 # Carregar o Dataset
 df = pd.read_csv('X_train.csv')
@@ -58,7 +67,7 @@ X = pd.DataFrame({
 # Função para fazer a previsão
 def fazer_previsao():
     # Fazer a previsão
-    prediction = modelo_carregado.predict(X)
+    prediction = model_xgbr.predict(X)
     return prediction[0]
 
 # Botão de previsão

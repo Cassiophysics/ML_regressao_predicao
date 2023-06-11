@@ -93,8 +93,14 @@ result_final
 
 # Salvar o Modelo Final
 import pickle
-with open('modelo_xgbr2.pkl', 'wb') as file:
-    pickle.dump(xgbr2, file)
+#with open('modelo_xgbr2.pkl', 'wb') as file:
+#    pickle.dump(xgbr2, file)
+
+data = {"model": xgbr2}
+with open('saved_steps.pkl', 'wb') as file:
+    pickle.dump(data, file)
+
+
 
 
 
