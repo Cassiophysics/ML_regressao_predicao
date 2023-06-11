@@ -65,15 +65,15 @@ X = pd.DataFrame({
 })
 
 # Função para fazer a previsão
-def fazer_previsao():
+#def fazer_previsao():
     # Fazer a previsão
-    prediction = model_xgbr.predict(X)
-    return prediction[0]
+#    prediction = model_xgbr.predict(X)
+#    return prediction[0]
 
 # Botão de previsão
 if st.button('Fazer Previsão'):
     # Calcular e exibir a previsão
-    resultado = fazer_previsao()
+    resultado = model_xgbr.predict(X)
     st.header('Resultado da Previsão')
     previsao_formatada = np.round(resultado.item(), 2)
     st.write(f'A previsão é: ₹ {previsao_formatada}')
