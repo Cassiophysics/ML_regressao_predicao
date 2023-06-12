@@ -22,6 +22,7 @@ from prediction import predict
 
 #model_xgbr = data["model"]
 
+
 import os
 
 # Obtém o diretório atual
