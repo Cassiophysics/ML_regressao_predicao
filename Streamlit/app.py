@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from prediction import predict
+#from prediction import predict
 
 
 
@@ -38,6 +38,10 @@ from prediction import predict
 
 # Agora você pode usar o 'file_path' para ler o arquivo
 #df = pd.read_csv(file_path)
+
+import joblib
+# Carregar o modelo
+modelo = joblib.load('xgbr2_model.sav')
 
 # Carregar o Dataset
 df = pd.read_csv('X_train.csv')
@@ -90,7 +94,9 @@ X = pd.DataFrame({
 # Botão de previsão
 if st.button('Fazer Previsão'):
     # Calcular e exibir a previsão
-    resultado = predict(X)
+    # Usar o modelo carregado
+    resultado = modelo.predict(X)
+    #resultado = predict(X)
     st.header('Resultado da Previsão')
     previsao_formatada = np.round(resultado.item(), 2)
     st.write(f'A previsão é: ₹ {previsao_formatada}')
