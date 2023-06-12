@@ -39,12 +39,25 @@ import numpy as np
 # Agora você pode usar o 'file_path' para ler o arquivo
 #df = pd.read_csv(file_path)
 
-import joblib
+#import joblib
 # Carregar o modelo
-modelo = joblib.load('xgbr2_model.sav')
+#modelo = joblib.load('xgbr2_model.sav')
 
 # Carregar o Dataset
 df = pd.read_csv('X_train.csv')
+
+
+import joblib
+import xgboost as xgb
+
+# Carregar o modelo
+modelo_xgb = joblib.load('xgbr2_model.sav')
+
+# Converter os dados de entrada para uma matriz DMatrix
+dados_de_entrada = xgb.DMatrix(df)
+
+# Carregar o Dataset
+#df = pd.read_csv('X_train.csv')
 
 # Criar a interface do Streamlit
 st.title('✈️ Previsão do Preço de Passagens Aéreas')
@@ -95,7 +108,9 @@ X = pd.DataFrame({
 if st.button('Fazer Previsão'):
     # Calcular e exibir a previsão
     # Usar o modelo carregado
-    resultado = modelo.predict(X)
+    #resultado = modelo.predict(X)
+    # Fazer a previsão usando o modelo carregado
+    resultado = modelo_xgb.predict(X)
     #resultado = predict(X)
     st.header('Resultado da Previsão')
     previsao_formatada = np.round(resultado.item(), 2)
