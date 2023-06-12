@@ -1,8 +1,7 @@
-![banervoo (1)](https://user-images.githubusercontent.com/108491443/205916658-390e290a-469d-417f-9d82-89a031fdc5f7.png)
-
-___
-
 # Machine Learning - Regressão Linear
+
+![capa_ml_rl](https://github.com/Cassiophysics/ML_regressao_predicao_passagens_aereas/assets/108491443/bc728550-b582-4001-a9e6-65f67e3bc4bc)
+
 
 ## **Teste você mesmo o modelo**: [PREVISOR DE PREÇOS DE PASSAGENS AÉREAS ✈️](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
 
