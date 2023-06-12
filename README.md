@@ -4,6 +4,8 @@ ___
 
 # Machine Learning - Regressão Linear
 
+Teste você mesmo o modelo: [Previsor de Preços de Passagens Aéreas](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
+
 Este é um projeto de Machine Learning de aprendizado supervisionado e o problema é do tipo regressão, onde se tem como objetivo treinar um algoritmo para encontrar uma relação linear entre os dados de entrada e saída e assim fazer uma previsão.
 
 Para tal propósito, o conjunto de dados utilizado foi obtido a partir do site [KAGGLE](https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh) e contém diversas características a fim de se prever o preço de passagens aéreas.
