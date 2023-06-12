@@ -39,6 +39,8 @@ from prediction import predict
 # Agora você pode usar o 'file_path' para ler o arquivo
 #df = pd.read_csv(file_path)
 
+file_path = "Streamlit/X_train.csv"
+
 # Carregar o Dataset
 df = pd.read_csv('/home/cassio/Documentos/MachineLearning_LR/Streamlit/X_train.csv')
 
