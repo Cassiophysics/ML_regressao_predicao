@@ -4,7 +4,7 @@ ___
 
 # Machine Learning - Regressão Linear
 
-Teste você mesmo o modelo: [Previsor de Preços de Passagens Aéreas](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
+## **Teste você mesmo o modelo**: [PREVISOR DE PREÇOS DE PASSAGENS AÉREAS](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
 
 Este é um projeto de Machine Learning de aprendizado supervisionado e o problema é do tipo regressão, onde se tem como objetivo treinar um algoritmo para encontrar uma relação linear entre os dados de entrada e saída e assim fazer uma previsão.
 
