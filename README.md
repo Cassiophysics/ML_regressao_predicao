@@ -3,7 +3,7 @@
 ![capa_ml_rl](https://github.com/Cassiophysics/ML_regressao_predicao_passagens_aereas/assets/108491443/bc728550-b582-4001-a9e6-65f67e3bc4bc)
 
 
-## **Teste você mesmo o modelo**: [PREVISOR DE PREÇOS DE PASSAGENS AÉREAS ✈️](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
+## **Teste você mesmo o modelo**: [✈️ PREVISOR DE PREÇOS DE PASSAGENS AÉREAS](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
 
 Este é um projeto de Machine Learning de aprendizado supervisionado e o problema é do tipo regressão, onde se tem como objetivo treinar um algoritmo para encontrar uma relação linear entre os dados de entrada e saída e assim fazer uma previsão.
 
