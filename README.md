@@ -1,4 +1,4 @@
-# Machine Learning - Regressão Linear
+# Machine Learning - Regressão
 
 ![capa_ml_rl](https://github.com/Cassiophysics/ML_regressao_predicao_passagens_aereas/assets/108491443/d953820c-e891-4979-9981-e329814e6922)
 
