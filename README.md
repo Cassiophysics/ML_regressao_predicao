@@ -1,6 +1,6 @@
 # Machine Learning - Regressão Linear
 
-![capa_ml_rl](https://github.com/Cassiophysics/ML_regressao_predicao_passagens_aereas/assets/108491443/bc728550-b582-4001-a9e6-65f67e3bc4bc)
+![capa_ml_rl](https://github.com/Cassiophysics/ML_regressao_predicao_passagens_aereas/assets/108491443/d953820c-e891-4979-9981-e329814e6922)
 
 
 ## **Teste você mesmo o modelo**: [✈️ PREVISOR DE PREÇOS DE PASSAGENS AÉREAS](https://cassiophysics-ml-regressao-predicao-passage-streamlitapp-dhb08h.streamlit.app/)
