@@ -11,23 +11,15 @@ Para tal propósito, o conjunto de dados utilizado foi obtido a partir do site [
 
 ## Motivação:
 
-Partindo do pressuposto de que é difícil prever os preços das passagens aéreas de forma precisa e confiável, pois sabemos que os preços são altamente variáveis e dependem de diversos fatores, como data, horário, destino, sazonalidade, demanda, entre outros.
+A previsão precisa e confiável dos preços das passagens aéreas é um desafio, devido à sua alta variabilidade e dependência de diversos fatores, como data, horário, destino, sazonalidade e demanda. Para atender à demanda por soluções eficazes na precificação de passagens aéreas, desenvolvi um modelo de machine learning que visa melhorar a experiência das empresas do setor de turismo e aviação.
 
-Este projeto tem como objetivo atender à demanda por soluções mais eficazes na precificação de passagens aéreas, buscando melhorar a experiência do usuário ao planejar viagens e identificar oportunidades de negócio no setor de turismo e aviação.
+A motivação por trás desse projeto foi fornecer uma solução que ajudasse as empresas a tomar decisões informadas e identificar oportunidades de negócio no setor de turismo e aviação. Por meio desse modelo, é possível planejar viagens com antecedência, comparar preços e obter estimativas confiáveis dos custos das passagens aéreas. Isso reduz a incerteza associada à compra de passagens, permitindo que as empresas tomem decisões embasadas.
 
-A elaboração de um modelo de machine learning para previsão de preços pode trazer benefícios significativos para companhias aéreas, agências de viagem e consumidores. Por exemplo:
+A construção desse modelo envolveu o uso de técnicas de machine learning, como regressão e análise de dados históricos de voos. Além disso, foram realizadas etapas de pré-processamento e validação dos dados para garantir a precisão e confiabilidade das previsões.
 
-**Precificação otimizada:** Com um modelo de previsão de preços preciso, as empresas podem ajustar seus preços de forma otimizada, levando em consideração fatores como sazonalidade, demanda, oferta e concorrência. Isso pode resultar em uma melhor estratégia de precificação, maximizando o lucro e a competitividade.
+Ao disponibilizar esse projeto no GitHub, meu objetivo é compartilhar os conhecimentos adquiridos durante o desenvolvimento do modelo e incentivar a colaboração com outros profissionais e entusiastas da área. Acredito que a colaboração pode levar a aprimoramentos contínuos e soluções mais eficientes e precisas.
 
-**Melhor gestão de capacidade:** O modelo de previsão de preços pode ajudar as empresas a gerenciar melhor a capacidade dos voos. Com base nas previsões de demanda, as empresas podem tomar decisões informadas sobre a frequência de voos, capacidade de assentos e planejamento de rotas. Isso pode ajudar a evitar voos subutilizados ou superlotados, resultando em uma melhor alocação de recursos e redução de custos.
-
-**Otimização de promoções e ofertas:** As empresas podem identificar momentos ideais para lançar promoções e ofertas especiais. Ao analisar padrões de demanda e preços históricos, o modelo pode sugerir os momentos em que os clientes são mais sensíveis a descontos e ofertas atrativas. Isso pode ajudar a aumentar a demanda em períodos de baixa procura e maximizar a receita em períodos de alta demanda.
-
-**Previsão de receitas:** Além de prever os preços das passagens, o modelo também pode ser usado para prever a receita total gerada por determinados voos, rotas ou períodos de tempo. Essas previsões podem ser usadas para fins de planejamento financeiro, alocação de recursos e tomada de decisões estratégicas.
-
-**Análise de concorrência:** O modelo pode fornecer insights valiosos sobre a dinâmica competitiva do mercado de passagens aéreas. Ao analisar os preços praticados pela concorrência e compará-los com as próprias estratégias de precificação, as empresas podem ajustar suas táticas de mercado e permanecer competitivas.
-
-**Melhoria da experiência do cliente:** Ao prever os preços das passagens aéreas com maior precisão, a empresa pode fornecer uma experiência mais transparente e confiável para os clientes. Isso ajuda a criar confiança e satisfação, pois os clientes sabem que estão obtendo preços justos e competitivos.
+Espero que esse projeto beneficie as empresas do setor de turismo, oferecendo insights valiosos e tornando o planejamento de viagens mais acessível e conveniente. Fique à vontade para explorar o código, os dados e os resultados apresentados no repositório.
 
 Diante disso, este projeto tem como objetivos específicos elaborar um modelo capaz de auxiliar na tomada de decisão nessas questões e apresentá-lo por meio de uma interface gráfica utilizando o Streamlit.
 
@@ -113,6 +105,20 @@ Isso, por sua vez, limita o número de vezes que um modelo precisa ser treinado 
 ## Impacto nos negócios:
 
 Podemos mensurar o impacto que a implementação desse modelo pode trazer para uma empresa comparando a receita, o lucro, os custos operacionais, a eficiência, a satisfação do cliente, a vantagem competitiva, entre outras métricas financeiras relevantes para o negócio, antes e depois do uso do modelo. Além disso, o Retorno sobre Investimento (ROI) que consiste na diferença entre os ganhos obtidos com o modelo e os custos do projeto, dividido pelo custo do projeto.
+
+Esse modelo pode trazer benefícios significativos para companhias aéreas, agências de viagem e consumidores. Por exemplo:
+
+**Precificação otimizada:** Com um modelo de previsão de preços preciso, as empresas podem ajustar seus preços de forma otimizada, levando em consideração fatores como sazonalidade, demanda, oferta e concorrência. Isso pode resultar em uma melhor estratégia de precificação, maximizando o lucro e a competitividade.
+
+**Melhor gestão de capacidade:** O modelo de previsão de preços pode ajudar as empresas a gerenciar melhor a capacidade dos voos. Com base nas previsões de demanda, as empresas podem tomar decisões informadas sobre a frequência de voos, capacidade de assentos e planejamento de rotas. Isso pode ajudar a evitar voos subutilizados ou superlotados, resultando em uma melhor alocação de recursos e redução de custos.
+
+**Otimização de promoções e ofertas:** As empresas podem identificar momentos ideais para lançar promoções e ofertas especiais. Ao analisar padrões de demanda e preços históricos, o modelo pode sugerir os momentos em que os clientes são mais sensíveis a descontos e ofertas atrativas. Isso pode ajudar a aumentar a demanda em períodos de baixa procura e maximizar a receita em períodos de alta demanda.
+
+**Previsão de receitas:** Além de prever os preços das passagens, o modelo também pode ser usado para prever a receita total gerada por determinados voos, rotas ou períodos de tempo. Essas previsões podem ser usadas para fins de planejamento financeiro, alocação de recursos e tomada de decisões estratégicas.
+
+**Análise de concorrência:** O modelo pode fornecer insights valiosos sobre a dinâmica competitiva do mercado de passagens aéreas. Ao analisar os preços praticados pela concorrência e compará-los com as próprias estratégias de precificação, as empresas podem ajustar suas táticas de mercado e permanecer competitivas.
+
+**Melhoria da experiência do cliente:** Ao prever os preços das passagens aéreas com maior precisão, a empresa pode fornecer uma experiência mais transparente e confiável para os clientes. Isso ajuda a criar confiança e satisfação, pois os clientes sabem que estão obtendo preços justos e competitivos.
 
 ## Identificação de melhorias para o modelo:
 
